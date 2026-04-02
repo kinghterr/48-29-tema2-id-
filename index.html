@@ -1,0 +1,44 @@
+<!-- Задание 1: Выбор абзаца с двумя классами одновременно -->
+<p class="eee">Параграф 1</p>
+<p class="zzz">Параграф 2</p>
+<p class="eee zzz">Параграф 3</p>
+<style>
+.eee.zzz {
+	color: red;
+}
+</style>
+
+<!-- Задание 2: Выбор элемента с тремя классами одновременно -->
+<p class="eee">Параграф 1</p>
+<p class="zzz">Параграф 2</p>
+<p class="ccc">Параграф 3</p>
+<p class="eee zzz ccc">Параграф 4</p>
+<style>
+.eee.zzz.ccc {
+	color: blue;
+}
+</style>
+
+<!-- Задание 3: Селекторы с тегом и классами -->
+<h2 class="bbb zzz">Заголовок</h2>
+<style>
+h2.bbb.zzz {
+	color: green;
+}
+</style>
+
+<!-- Задание 4: Селектор с id и классом -->
+<div id="elem" class="eee">Блок с id и классом</div>
+<style>
+#elem.eee {
+	color: orange;
+}
+</style>
+
+<!-- Задание 5: Селектор с id и несколькими классами -->
+<div id="elem" class="bbb zzz">Блок с id и двумя классами</div>
+<style>
+#elem.bbb.zzz {
+	color: purple;
+}
+</style>
